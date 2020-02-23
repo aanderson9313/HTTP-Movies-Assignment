@@ -59,7 +59,7 @@ const UpdateMovie = props => {
             placeholder="Stars"
             name="stars"
             onChange={handleChange}/>
-            <button type="submit">Update</button>
+            <button className='button' type="submit">Update</button>
         </form>
     </div>
   );
